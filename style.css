@@ -1,0 +1,62 @@
+.color-block {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+/*EJERCICIO 1*/
+.ejercicio1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+/*EJERCICIO 2*/
+.ejercicio2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.red1 {
+  background-color: red;
+  order: 3;
+}
+
+.blue2 {
+  background-color: blue;
+  order: 2;
+}
+
+.green3 {
+  background-color: green;
+  order: 1;
+}
+
+/*EJERCICIO 3*/
+.ejercicio3 {
+  display: flex; /* Usamos flexbox */
+  width: 100%; /* El contenedor toma el 100% del ancho de la ventana */
+  justify-content: space-between; /* Separa los elementos uniformemente */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  height: 100vh; /* Ajusta la altura al 100% de la altura de la ventana */
+}
