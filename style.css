@@ -40,9 +40,9 @@
 
 /*EJERCICIO 3*/
 .ejercicio3 {
-  display: flex; /* Usamos flexbox */
-  width: 100%; /* El contenedor toma el 100% del ancho de la ventana */
-  justify-content: space-between; /* Separa los elementos uniformemente */
-  align-items: center; /* Alinea los elementos verticalmente en el centro */
-  height: 100vh; /* Ajusta la altura al 100% de la altura de la ventana */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
 }
